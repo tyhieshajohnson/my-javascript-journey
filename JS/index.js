@@ -24,3 +24,10 @@ console.log(num1 / num2);
 let numberOne = 10,
     numberTwo = 4;
 console.log(`numberOne / numberTwo = ${~~(numberOne / numberTwo)} remainder ${~~(numberOne % numberTwo)}`)
+
+// B. Task 2:Data Types
+// 1. Define the following data types with your own contents[ 'integer', 'decimal', 'string', 'array'(minimum: 3 items), 'Object'(minimum: 4 values)]
+let integer(-1, -2, -3);
+let decimal(1.20, 2.20, 3.20);
+let string("Ty Johnson");
+const cars = ["Volvo", "BMW", "Mercedes"];
