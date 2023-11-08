@@ -59,3 +59,26 @@ let numberThree = null,
     numberFour = null;
 console.log(numberThree);
 console.log(numberFour);
+
+// ***********C. Task 3. functions and contional statements************
+// N.B. READ WITH UNDERSTANDING!!!
+//  1.  Create 3 functions to convert R1000 into dollars, euros and pounds. Take function naming into consideration!
+let convert = 1000;
+let dollar = 54,05;
+let euro = 50,60;
+let aed = 198,50;
+//  2.  Create a function that takes a value and calculates the amount entered including VAT (15%), amount entered should be R400.
+//      Then display the message in the console, "The amount after tax is ...".
+amount (400)
+function amount(R),
+let amount = R*1.15,
+let rounded amount = a.toFixed(2),
+console.log('The amount after tax is ' $[rounded amount]');
+//  3.  Declare 3 variables 1stNum, 2ndNum, 3rdNum and assign values of 8, 20 and 14 respectfully. Now write a function that compares “num1” and “num2” and 
+//      displays the larger value.
+
+//  4.  Write a function that determines whether “num1” is odd or even and displays the
+//      result. (Tip: remember the modulus operator %)
+
+//  5.  Next, write a JavaScript conditional statement to sort the three numbers(1stNum, 2ndNum, 3rdNum) from largest to smallest.
+​
