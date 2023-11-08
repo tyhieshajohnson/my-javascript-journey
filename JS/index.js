@@ -18,3 +18,9 @@ let num1 = 10;
 let num2 = 4;
 // Calculate and display in the console what the remainder is if num1 is divided by num2.
 console.log(num1 / num2);
+
+// 4.Using the variables you created in the previous step, output the results
+// of the division in the following format: “num1 / num2 = x remainder y.” HINT: Backticks
+let numberOne = 10,
+    numberTwo = 4;
+console.log(`numberOne / numberTwo = ${~~(numberOne / numberTwo)} remainder ${~~(numberOne % numberTwo)}`)
