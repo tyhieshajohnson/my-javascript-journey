@@ -52,8 +52,8 @@ console.log(cars);
 console.log(typeof cars);
 
 // 4. Create an array with numbers and strings. Comment what data type you expect this to be. Then use the ‘typeof’ function on this array:
-const numbFruit = ["1", "2", "6", "Ty Johnson"];
-console.log(numbFruit);
+const numbString = ["1", "2", "6", "Ty Johnson"];
+console.log(numbString);
 // 5. Create a null variable and an undefined variable:
 let numberThree = null,
     numberFour = null;
@@ -69,31 +69,11 @@ let euro = 50;
 let aed = 198;
 //  2.  Create a function that takes a value and calculates the amount entered including VAT (15%), amount entered should be R400.
 //      Then display the message in the console, "The amount after tax is ...".
-amount (400)
-function amount(R);
-let amount = R*1.15;
-let roundedamount = a.toFixed(2);
-console.log('The amount after tax is' + amount);
+
 //  3.  Declare 3 variables 1stNum, 2ndNum, 3rdNum and assign values of 8, 20 and 14 respectfully. Now write a function that compares “num1” and “num2” and 
 //      displays the larger value.
-let firstNum = 8;
-let secondNum = 20;
-let thirdNum = 14;
-
-function compareAndDisplayLarger(num1, num2) {
-    if (num1 > num2) {
-      console.log(num1 + " is larger.");
-    } else if (num2 > num1) {
-      console.log(num2 + " is larger.");
-    } else {
-      console.log("Both numbers are equal.");
-    }
-  }
-
-  compareAndDisplayLarger(firstNum, secondNum);
 
 //  4.  Write a function that determines whether “num1” is odd or even and displays the
 //      result. (Tip: remember the modulus operator %)
 
 //  5.  Next, write a JavaScript conditional statement to sort the three numbers(1stNum, 2ndNum, 3rdNum) from largest to smallest.
-​
