@@ -2,8 +2,8 @@
 //  2.  Create a function that takes a value and calculates the amount entered including VAT (15%), amount entered should be R400.
 //      Then display the message in the console, "The amount after tax is ...".
 amount (400)
-function finalAmount(R);
-let amount = R*1.15;
+function finalAmount();
+let amount = 1.15;
 let roundedfinalAmount = R.toFixed(2);
 console.log('The amount after tax is' + amount);
 
@@ -24,3 +24,13 @@ function compareAndDisplayLarger(num1, num2) {
   }
 
   compareAndDisplayLarger(firstNum, secondNum);
+
+// write a condtional statement to check whether someone qualifies for their driver's lisence(18), 
+// learner's lisence(16) and/or if they dont qualify at all. all 3 possibilities should be accounted for
+if (age>=18){
+  console.log("Qualify for drivers license: ");
+}else if (age >=16){
+  console.log("Qualify for learner's license:");
+}else {
+  console.log("You do not qualify for any license");
+}

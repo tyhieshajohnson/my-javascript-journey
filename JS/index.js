@@ -77,3 +77,14 @@ let aed = 198;
 //      result. (Tip: remember the modulus operator %)
 
 //  5.  Next, write a JavaScript conditional statement to sort the three numbers(1stNum, 2ndNum, 3rdNum) from largest to smallest.
+
+// write a condtional statement to check whether someone qualifies for their driver's lisence(18), 
+// learner's lisence(16) and/or if they dont qualify at all. all 3 possibilities should be accounted for
+let age = 3
+if (age>=18){
+    console.log("Qualify for drivers license: ");
+  }else if (age >=16){
+    console.log("Qualify for learner's license:");
+  }else {
+    console.log("You do not qualify for any license");
+  }
